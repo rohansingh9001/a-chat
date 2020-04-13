@@ -25,3 +25,8 @@ ___
 |Name|Year|Department|
 |--|--|--|
 |Kunal Tawatia| Sophomore|Computer Science and Engineering|
+
+##### Steps to join
+
+ 1. Star this repo.
+ 2.  Push a PR in this README, adding your details in the above table.
