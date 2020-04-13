@@ -26,6 +26,8 @@ ___
 |--|--|--|
 |[Kunal Tawatia](https://github.com/kunaltawatia)| Sophomore|Computer Science and Engineering|
 |[Rohan Singh](https://github.com/rohansingh9001)| Freshman| Electrical Engineering|
+|[Abhishek Raghav](https://github.com/imraghav20)| Freshman|Computer Science and Engineering|
+
 
 ##### Steps to join
 
