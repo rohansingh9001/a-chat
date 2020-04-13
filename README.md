@@ -34,6 +34,8 @@ ___
 |[Abhishek Raghav](https://github.com/imraghav20)| Freshman|Computer Science and Engineering|
 |[Saptashrungi](https://github.com/Saptashrungi)|Freshman|Computer Science and Engineering|
 |[Bhawna Chopra](https://github.com/bhawnachopra2002)| Freshman|Electrical Engineering|
+|[Akshika Gupta](https://github.com/guptaakshika09)|Freshman|Computer Science And Engineering|
+
 
 ##### Steps to join
 
