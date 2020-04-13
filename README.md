@@ -31,7 +31,9 @@ ___
 |[Harshil Bhatia](https://github.com/HarshilBhatia)| Freshman| Computer Science and Engineering|
 |[Shubham Agrawal](https://github.com/agrawalshubham01)|Freshman|Bio Engineering|
 |[Abhishek Raghav](https://github.com/imraghav20)| Freshman|Computer Science and Engineering|
+|[Saptashrungi](https://github.com/Saptashrungi)|Freshman|Computer Science and Engineering|
 |[Bhawna Chopra](https://github.com/bhawnachopra2002)| Freshman|Electrical Engineering|
+
 
 ##### Steps to join
 
