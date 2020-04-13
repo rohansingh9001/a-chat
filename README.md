@@ -27,8 +27,9 @@ ___
 |[Kunal Tawatia](https://github.com/kunaltawatia)| Sophomore|Computer Science and Engineering|
 |[Rohan Singh](https://github.com/rohansingh9001)| Freshman| Electrical Engineering|
 |[Tarun Tomar](https://github.com/TarunTomar122)|Freshman|Computer Science and Engineering|
+|[Pratyaksh Tyagi](https://github.com/pratyaksh123)| Freshman| Electrical Engineering|
 
 ##### Steps to join
 
  1. Star this repo.
- 2.  Push a PR in this README, adding your details in the above table.
+ 2. Push a PR in this README, adding your details in the above table.
