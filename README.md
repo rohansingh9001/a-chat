@@ -25,6 +25,7 @@ ___
 |Name|Year|Department|
 |--|--|--|
 |[Kunal Tawatia](https://github.com/kunaltawatia)| Sophomore|Computer Science and Engineering|
+|[Rohan Singh](https://github.com/rohansingh9001)| Freshman| Electrical Engineering|
 
 ##### Steps to join
 
