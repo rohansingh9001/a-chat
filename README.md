@@ -28,6 +28,7 @@ ___
 |[Rohan Singh](https://github.com/rohansingh9001)| Freshman| Electrical Engineering|
 |[Tarun Tomar](https://github.com/TarunTomar122)|Freshman|Computer Science and Engineering|
 |[Pratyaksh Tyagi](https://github.com/pratyaksh123)| Freshman| Electrical Engineering|
+|Harshil Bhatia| Freshman| Computer Science and Engineering|
 |[Shubham Agrawal](https://github.com/agrawalshubham01)|Freshman|Bio Engineering|
 
 ##### Steps to join
