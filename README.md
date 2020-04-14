@@ -23,11 +23,11 @@ ___
 ## Steps to setup locally and run:
 
 * ### Install [Node.js](https://nodejs.org/en/download/current/)
-> Deploying this app requires node package manager `npm`
-* ### Install [Nodemon](https://github.com/remy/nodemon#nodemon)
-  ```
-  npm i -g nodemon
-  ```
+> Deploying this app requires node package manager `npm` and the development server requires [nodemon](http://nodemon.io) to be installed using:
+>  ```
+>  npm i -g nodemon
+>  ```
+
 * ### Clone the repository
 > Download this repository `or`
 ```
@@ -38,11 +38,12 @@ cd aChat
 ```
 npm install
 ```
-* ### Run `development server`
+* ### Run `server`
 ```
 npm start
 ```
-* ### Run Development Server Using Nodemon
+> The server will start listening by default at http://localhost:3000
+* ### Run `development server` using nodemon
 ```
 npm run dev
 ```
