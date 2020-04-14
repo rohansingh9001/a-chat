@@ -20,7 +20,7 @@ ___
 - [socket.io](https://socket.io/)
 - [docker](https://www.docker.com/)
 
-##Steps to Install and Run:
+## Steps to setup locally and run:
 
 * ### Install [Node.js](https://nodejs.org/en/download/current/)
 > Deploying this app requires node package manager `npm`
@@ -33,7 +33,6 @@ cd aChat
 * ### Install dependencies
 ```
 npm install
-npm i -g nodemon
 ```
 * ### Run `development server`
 ```
