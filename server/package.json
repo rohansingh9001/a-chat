@@ -1,0 +1,23 @@
+{
+  "name": "aChat",
+  "version": "0.0.1",
+  "description": "A chat application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pclubiitj/aChat.git"
+  },
+  "author": "Programming Club, Indian Institute of Technology, Jodhpur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pclubiitj/aChat/issues"
+  },
+  "homepage": "https://github.com/pclubiitj/aChat/aChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
