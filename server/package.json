@@ -1,16 +1,16 @@
 {
-  "name": "achat",
+  "name": "aChat",
   "version": "0.0.1",
-  "description": "A anonymous web-based chat application.",
+  "description": "A chat application.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohansingh9001/aChat.git"
+    "url": "git+https://github.com/pclubiitj/aChat.git"
   },
-  "author": "Rohan Singh",
+  "author": "Programming Club, Indian Institute of Technology, Jodhpur",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pclubiitj/aChat/issues"
