@@ -20,6 +20,26 @@ ___
 - [socket.io](https://socket.io/)
 - [docker](https://www.docker.com/)
 
+## Steps to setup locally and run:
+
+* ### Install [Node.js](https://nodejs.org/en/download/current/)
+> Deploying this app requires node package manager `npm`
+* ### Clone the repository
+> Download this repository `or`
+```
+git clone https://github.com/pclubiitj/aChat.git
+cd aChat
+```
+* ### Install dependencies
+```
+npm install
+```
+* ### Run `development server`
+```
+npm start
+```
+
+
 ## Team
 
 |Name|Year|Department|
