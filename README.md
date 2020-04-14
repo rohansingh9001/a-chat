@@ -24,6 +24,10 @@ ___
 
 * ### Install [Node.js](https://nodejs.org/en/download/current/)
 > Deploying this app requires node package manager `npm`
+* ### Install [Nodemon](https://github.com/remy/nodemon#nodemon)
+  ```
+  npm i -g nodemon
+  ```
 * ### Clone the repository
 > Download this repository `or`
 ```
@@ -37,6 +41,10 @@ npm install
 * ### Run `development server`
 ```
 npm start
+```
+* ### Run Development Server Using Nodemon
+```
+npm run dev
 ```
 
 
