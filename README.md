@@ -1,9 +1,9 @@
-# aChat: Anonymous Chat
+# a-chat: Anonymous Chat
 
 > All work and no play makes Jack a dull boy
 > -the shining ( 1980 )
 
-aChat: A real-time chat application, based on WebSockets, used for meeting up with some random strangers and keeping your identity anonymous.
+a-chat: A real-time chat application, based on WebSockets, used for meeting up with some random strangers and keeping your identity anonymous.
 ## Description
 So this chat application which serves from 00:00 to 01:00 only *:P* , creates an interface of chat between pairs of anonymous users among all the users online.
 ###### Features
@@ -31,8 +31,8 @@ ___
 * ### Clone the repository
 > Download this repository `or`
 ```
-git clone https://github.com/pclubiitj/aChat.git
-cd aChat
+git clone https://github.com/pclubiitj/a-chat.git
+cd a-chat
 ```
 * ### Install dependencies
 ```

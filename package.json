@@ -1,5 +1,5 @@
 {
-  "name": "iitj-achat",
+  "name": "iitj-a-chat",
   "version": "0.0.1",
   "description": "A chat application.",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pclubiitj/aChat.git"
+    "url": "git+https://github.com/pclubiitj/a-chat.git"
   },
   "author": "Programming Club, Indian Institute of Technology, Jodhpur",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pclubiitj/aChat/issues"
+    "url": "https://github.com/pclubiitj/a-chat/issues"
   },
-  "homepage": "https://github.com/pclubiitj/aChat/aChat#readme",
+  "homepage": "https://github.com/pclubiitj/a-chat/a-chat#readme",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
