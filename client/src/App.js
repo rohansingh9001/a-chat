@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import io from "socket.io-client";
+
+import "./App.scss";
 
 import Messages from "./components/Messages";
 import Input from "./components/Input";
@@ -8,7 +9,11 @@ import Header from "./components/Header";
 
 // A Random colour generator to generate random avatars.
 function randomColor() {
-  return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
+  return "#" + Math.floor(Math.random() * 0xffffff).toString(16);
+}
+
+function randomId() {
+  return Math.floor(Math.random() * 1000);
 }
 
 class App extends React.Component {
@@ -20,23 +25,38 @@ class App extends React.Component {
         text: "This is a test message!",
         member: {
           color: randomColor(),
-        }
-      }
+        },
+      },
     ],
     member: {
-      color: randomColor()
-    }
+      color: randomColor(),
+      id: randomId()
+    },
+  };
+
+  socket = null;
+
+  componentDidMount() {
+    this.socket = io("http://localhost:3000");
+
+    this.socket.on("message", (data) => {
+      const messages = this.state.messages;
+      messages.push({
+        text: data.message,
+        member: data.member,
+      });
+      this.setState({ messages: messages });
+    });
   }
 
   // Function to handle a sent message event.
   onSendMessage = (message) => {
-    const messages = this.state.messages
-    messages.push({
-      text: message,
-      member: this.state.member
-    })
-    this.setState({messages: messages});
-  }
+    const { member } = this.state;
+    this.socket.emit("message", {
+      message: message,
+      member: member,
+    });
+  };
 
   render() {
     return (
@@ -46,9 +66,7 @@ class App extends React.Component {
           messages={this.state.messages}
           currentMember={this.state.member}
         />
-        <Input
-          onSendMessage={this.onSendMessage}
-        />
+        <Input onSendMessage={this.onSendMessage} />
       </div>
     );
   }
