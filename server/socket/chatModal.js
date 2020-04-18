@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/', function(err){
+mongoose.connect('mongodb://localhost/a-chat-messsages', function(err){
   if(err){
     console.log(err);
   }
@@ -15,6 +15,6 @@ var schema = mongoose.Schema({
   created : { type: Date, default: Date.now}
 });
 
-var chat = mongoose.model('Message', schema);
+var Chat = mongoose.model('Message', schema, 'chats');
 
 module.exports = chat;
