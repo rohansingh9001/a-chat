@@ -9,6 +9,6 @@ var schema = mongoose.Schema({
   }
 });
 
-var Chat = mongoose.model('Message', schema, 'chats');
+var Chat = mongoose.model('Chat', schema, 'chats');
 
 module.exports = Chat;
